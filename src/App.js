@@ -3,7 +3,7 @@ import { CssBaseline, Container } from '@material-ui/core'
 import useMediaQuery from '@material-ui/core/useMediaQuery'
 import { ThemeProvider, createMuiTheme, makeStyles } from '@material-ui/core/styles'
 import { teal } from '@material-ui/core/colors'
-import Home from './page/Home'
+import Home from './pages/Home'
 
 const useStyles = makeStyles(theme => ({
   container: {
