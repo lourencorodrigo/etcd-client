@@ -19,7 +19,10 @@ const App = () => {
       createMuiTheme({
         palette: {
           type: prefersDarkMode ? 'dark' : 'light',
-          primary: teal
+          primary: teal,
+          background: {
+            default: '#303030',
+          },
         }
       }),
     [prefersDarkMode]

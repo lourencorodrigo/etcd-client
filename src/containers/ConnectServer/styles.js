@@ -8,7 +8,7 @@ export const useStyles = makeStyles(theme => ({
     padding: theme.spacing(2),
     color: theme.palette.text.secondary
   },
-  formControl: {
+  autoComplete: {
     marginBottom: theme.spacing(1),
     minWidth: '100%'
   },
